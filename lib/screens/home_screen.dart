@@ -5,8 +5,7 @@ import '../services/email_service.dart';
 import 'chart_screen.dart';
 
 class HomeScreen extends StatelessWidget {
-  final String recipientEmail =
-      "iaryangupta21@gmail.com"; // Replace with your email
+  final String recipientEmail = "EMAIL"; // Replace with your email
 
   @override
   Widget build(BuildContext context) {
