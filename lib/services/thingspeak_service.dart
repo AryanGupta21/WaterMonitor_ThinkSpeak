@@ -6,8 +6,8 @@ class ThingSpeakService {
   static const String baseUrl = 'https://api.thingspeak.com/channels';
 
   // Replace with your actual ThingSpeak channel ID and API key
-  static const String channelId = 'CHANNEL_ID';
-  static const String readApiKey = 'READ_API_KEY';
+  static const String channelId = '2975376';
+  static const String readApiKey = '6M40IIM3BS2SRQ1Q';
 
   static Future<ThingSpeakResponse> getFieldData(
     String fieldNumber, {

@@ -8,15 +8,18 @@ class MonitoringCard extends StatefulWidget {
   final String unit;
   final String fieldNumber;
   final VoidCallback onTapped;
+  final int delay;
 
-  MonitoringCard({
+  const MonitoringCard({
+    Key? key,
     required this.title,
     required this.icon,
     required this.color,
     required this.unit,
     required this.fieldNumber,
     required this.onTapped,
-  });
+    this.delay = 0,
+  }) : super(key: key);
 
   @override
   _MonitoringCardState createState() => _MonitoringCardState();
